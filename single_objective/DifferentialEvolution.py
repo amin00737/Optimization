@@ -31,9 +31,9 @@ class DifferentialEvolution:
         self.best_obj_history = []
         self.best_solution_history = []
 
-    # -------------------------------------------------
+    # ------------------------------------------------
     # Initialize population
-    # -------------------------------------------------
+    # ------------------------------------------------
     def generate_population(self):
         return np.random.uniform(
             self.lowerbound,

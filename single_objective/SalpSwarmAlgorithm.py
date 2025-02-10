@@ -3,9 +3,9 @@ from typing import List, Tuple
 import pandas as pd
 import matplotlib.pyplot as plt
 
-# =====================================================
+# ====================================================
 # Salp Swarm Algorithm (SSA)
-# =====================================================
+# ====================================================
 
 class SalpSwarmAlgorithm:
     def __init__(

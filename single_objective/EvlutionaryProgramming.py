@@ -4,9 +4,9 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
-# =====================================================
+# ====================================================
 # Evolutionary Programming (Self-Adaptive)
-# =====================================================
+# ====================================================
 
 class EvolutionaryProgramming:
     def __init__(
