@@ -1,12 +1,7 @@
 
+# 🧬 Algorithms for 2D Grid Path Planning
 
-# 🧬 Genetic Algorithm for 2D Grid Path Planning
-
-This project implements a **Genetic Algorithm (GA)** to solve a 2D grid-based path planning problem with obstacles.
-
-The algorithm evolves a set of intermediate waypoints between a start and goal position to generate a near-optimal collision-free path with minimal length.
-
-> ⚠️ Note: While classical graph-based algorithms like A* are more efficient for grid shortest-path problems, this project demonstrates evolutionary optimization techniques for learning and experimentation purposes.
+This project implements optimisation algorithms to solve a 2D grid-based path planning problem with obstacles.
 
 ---
 
@@ -15,7 +10,6 @@ The algorithm evolves a set of intermediate waypoints between a start and goal p
 * 2D grid environment (default: 20×20)
 * Static obstacles
 * Fixed start and goal positions
-* Continuous waypoint encoding
 * Collision-aware fitness function
 * Path visualization
 
@@ -32,35 +26,12 @@ Total Path Length + Collision Penalty
 ```
 ├── GeneticAlgorithm.py          # Genetic Algorithm class implementation
 ├── GeneticAlgorithmTest.ipynb   # Example usage & visualization
+├── DifferentialEvolution.ipynb   # Example usage & visualization
+├── EvolutionaryProgramming.ipynb   # Example usage & visualization
+├── SalpSwarmAlgorithm.ipynb   # Example usage & visualization
 ├── README.md
 ├── LICENSE
 ```
-
----
-
-## 🧠 Genetic Algorithm Design
-
-### Representation
-
-Each chromosome encodes waypoint coordinates:
-
-```
-[x1, y1, x2, y2, ..., xN, yN]
-```
-
-Where:
-
-* N = number of intermediate waypoints
-* Start and goal are fixed
-
----
-
-### Evolution Operators
-
-* **Selection:** Tournament selection
-* **Crossover:** Arithmetic recombination
-* **Mutation:** Gaussian perturbation
-* **Elitism:** Best solution preserved across generations
 
 ---
 
@@ -105,9 +76,9 @@ Open the notebook:
 jupyter lab GeneticAlgorithmTest.ipynb
 ```
 
-The notebook:
+The notebooks:
 
-* Runs the GA
+* Runs the algos
 * Displays convergence curve
 * Visualizes the optimized path
 
@@ -115,7 +86,7 @@ The notebook:
 
 ## 📊 Output
 
-The algorithm produces:
+The algorithms produce:
 
 * Best objective value
 * Best waypoint solution
