@@ -1,6 +1,4 @@
-Here is a **clean, professional, ready-to-paste `README.md`** tailored specifically to your repository:
 
----
 
 # 🧬 Genetic Algorithm for 2D Grid Path Planning
 
